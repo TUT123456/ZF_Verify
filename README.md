@@ -2,7 +2,7 @@
 正方教务系统验证码识别api  
 只能识别正方教务系统的验证码！！  
   
-1. 调用接口识别  
+##1. 调用接口识别  
 使用requests调用接口:  
 
   url = "http://127.0.0.1:6000/b"  
@@ -15,7 +15,7 @@
       'value': 'jsp1',  
   }  
 
-2. 部署  
+##2. 部署  
   部署的时候，把webserver_recognize_api.py文件的最后一行修改为如下内容：  
   
   app.run(host='0.0.0.0',port=5000,debug=False)  
